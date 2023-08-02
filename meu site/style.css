@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'fonte';
+    src: url('fontes/pepperoni_pizza.ttf') format('truetype');
+    font-weight: normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #F5EBDC;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+header {
+    background-color: #FFAA00;
+    min-height: 150px;
+}
+
+header h1 {
+    font-family: 'fonte', Arial, Helvetica, sans-serif;
+    color: #dd2100;
+    text-align: center;
+    font-size: 3em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px #0000007a;
+}
+
+header p {
+    color: #ffffff;
+    text-align: center;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+main {
+    min-width: 320px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px #00000065;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+nav {
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    background-color: #F5EBDC;
+    padding: 10px;
+    box-shadow: 0px 7px 7px #0000005e;
+}
+
+nav > a {
+    font-family: 'fonte', Arial, Helvetica, sans-serif;
+    color: #502314;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bolder;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover {
+    background-color: #853a21;
+    color: #ce6006;
+}
+
+.cor {
+    background-color: #FFAA00;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.foto {
+    width: 100%;
+}
