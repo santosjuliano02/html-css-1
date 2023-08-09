@@ -2,14 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2? família= Paixão+Um & display=swap');
 
-
-
-
+@font-face {
+    font-family: font;
+    src: url('/desafios/desafio6/fontes/The\ Simsong.otf')format('opentype');
+}
 
 :root {
     --font1: Verdana, Geneva, Tahoma, sans-serif;
     --font2: 'Passion One', cursiva;
-    --font3: 'fonte', cursiva;
+    --font3: 'font';
 }
 
 * {
@@ -54,7 +55,7 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
-    font-family: 'fonte';
+    font-family: var(--font3);
 }
 
 section.normal {
