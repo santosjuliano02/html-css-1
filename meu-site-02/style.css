@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #000000;
+    color: #ffffff;
+    min-height: 150px;
+    text-align: center;
+    margin: auto;
+}
+
+header h1 {
+    font-size: 5em;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+
+header > p {
+    margin-bottom: -50px;
+    padding-bottom: 50px;
+}
+
+nav {
+    background-color: #404040;
+    min-width:1500px;
+    padding: 10px;
+    box-shadow: 0px 7px 7px #0000005e;
+    display: inline-block;
+}
+
+nav > a {
+    color: #CCCCCC;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bolder;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover {
+    background-color: #00000059;
+    color: #ffffff;
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 320px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px #0000003f;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+section div.video {
+    background-color: #000000;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 56.4%;
+    position: relative;
+}
+
+section div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+section {
+    text-align: justify;
+    background-color: #ffffff;
+    line-height: 2em;
+    margin-top: 20px;
+}
+
+section h2 {
+    line-height: 1em;
+    padding: 0px;
+    padding-bottom: 0.6em;
+}
+
+section > p {
+    font-size: 1.3em;
+    padding-bottom: 2em;
+}
+
+section div {
+    display: inline-block;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    text-align: center;
+    margin: 20px;
+    height: 50px;
+    width: 100px;
+}
+
+.parte1 {
+    background-color: #404040;
+    box-shadow: 0px 7px 7px #0000005e;
+    text-align: center;
+    text-indent: 2em;
+}
+
+ul.principal {
+    padding: 20px;
+    margin-top: -40px;
+    list-style-position: inside;
+    
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
