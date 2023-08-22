@@ -64,6 +64,8 @@ div.localizacao {
     margin-top: 10px;
     border-radius: 0px 0px 10px 10px;
     box-shadow: 0px 0px 5px 0px #0000003f;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 div.horario {
@@ -74,6 +76,8 @@ div.horario {
     margin-top: 10px;
     border-radius: 0px 0px 10px 10px;
     box-shadow: 0px 0px 5px 0px #0000003f;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 div.contato {
@@ -84,6 +88,8 @@ div.contato {
     margin-top: 10px;
     border-radius: 0px 0px 10px 10px;
     box-shadow: 0px 0px 5px 0px #0000003f;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 nav {
